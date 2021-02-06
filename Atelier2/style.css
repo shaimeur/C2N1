@@ -64,10 +64,21 @@ body {
     height: 153px;
     border-radius: 10px;
     color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
 }
 
+#progresse {
+    display: flex;
+    height: 100px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
 .one {
-    background-color: rgba(21, 30, 73,.5);
+    background-color: rgba(21, 30, 73,.9);
     width: 600px;
     height: 20px;
     border-radius: 10px;
@@ -80,8 +91,24 @@ body {
 }
 
 .three {
-    background-color:white;
+    background-color: white;
     width: 20px;
     height: 20px;
     border-radius: 100%;
+    margin-left: 380px;
+}
+.min {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.max {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+#pnl {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
 }
