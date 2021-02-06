@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0c122c;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px
+}
+
+#globale{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    align-content: center;
+    flex-wrap: wrap;
+    column-gap: 40px;
+}
+/*   lyoute 1*/
+
+#first {
+    background-color: #1e2c69;
+    width: 330px;
+    height: 200px;
+    border-radius: 10px 100px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
+    padding-right: 100px;
+}
+
+.image img {
+    background-color: #0b122b;
+    border-radius: 5px;
+    width: 50px;
+    padding: 13px;
+}
+
+#title {
+
+}
+.image {
+    display: flex;
+    width: 180px;
+    height: 60px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: baseline;
+    align-content: stretch;
+}
+/* layoute2*/
+
+
+#second {
+    background-color: #1e2c69;
+    width: 700px;
+    height: 153px;
+    border-radius: 10px;
+    color: white;
+}
+
+.one {
+    background-color: rgba(21, 30, 73,.5);
+    width: 600px;
+    height: 20px;
+    border-radius: 10px;
+}
+ .two {
+    background-color: rgba(251, 84, 146,.8);
+    width: 400px;
+    height: 20px;
+    border-radius: 10px;
+}
+
+.three {
+    background-color:white;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
