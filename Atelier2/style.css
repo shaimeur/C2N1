@@ -112,3 +112,19 @@ body {
     justify-content: space-between;
     margin-bottom: 15px;
 }
+.left {
+    color: black;
+    background-color: white;
+    width: 103px;
+    height: 290px;
+    position: relative;
+    left: 533px;
+    bottom: 55px;
+    font-size: 15px;
+    padding: 8px;
+    clip-path: polygon(0 10%, 100% 10%, 100% 76%, 100% 69%, 100% 100%, 82% 70%, 1% 70%);
+   }
+   .message {
+        position: relative;
+        bottom: 20px;
+   }
