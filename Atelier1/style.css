@@ -25,7 +25,7 @@ p {
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
-    
+
 }
 
 #first {
@@ -38,7 +38,7 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-}  
+}
 
 
 .star {
@@ -67,7 +67,7 @@ div.star:last-child {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    
+
 }
 .square {
     background-color: #511f50;
@@ -87,6 +87,13 @@ div.square img{
     position: relative;
     left: 25%;
     bottom: 23%;
-    color: #e6d9e6
-    ;
+    color: #e6d9e6;
+}
+.square:first-child {
+    position: relative;
+    bottom: 30px;;
+}
+.square:last-child {
+    position: relative;
+    top: 30px;
 }
